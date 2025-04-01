@@ -1,0 +1,4 @@
+mls:
+  translation:
+    directory: emimpinit\lang\english
+    auto_tra: false                         # optional, if not specified defaults to true

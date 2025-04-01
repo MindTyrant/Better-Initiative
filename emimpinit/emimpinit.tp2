@@ -1,0 +1,28 @@
+/** @tra setup.tra */
+BACKUP "weidu_external/emimpinit/backup"
+AUTHOR ~mindtyrant1024@gmail.com~
+
+VERSION v0.1
+AUTO_EVAL_STRINGS
+
+// "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
+
+ALWAYS
+
+END
+
+/// Language options
+LANGUAGE 
+"English"  
+"english" 
+"emimpinit/lang/english/setup.tra"
+
+///////////////////////////////////////////////////////////////////////////
+// Enchantment Doesn't Affect Speed Factor of Weapons                    //
+///////////////////////////////////////////////////////////////////////////
+
+BEGIN @10
+DESIGNATED 1
+REQUIRE_PREDICATE (ENGINE_IS ~bgee bg2ee eet~) @9002
+
+INCLUDE ~item_rev/components/enchantment_speed_factor.tpa~
