@@ -23,6 +23,6 @@ LANGUAGE
 
 BEGIN @10
 DESIGNATED 10
-REQUIRE_PREDICATE (ENGINE_IS ~bgee bg2ee eet~) @9002
+REQUIRE_PREDICATE (ENGINE_IS ~bgee bg2ee eet~) @0
 
-INCLUDE ~item_rev/components/enchantment_speed_factor.tpa~
+INCLUDE ~emimpinit/components/enchantment_half_speed.tpa~
